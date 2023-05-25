@@ -6,6 +6,7 @@ on:
 concurrency: my-concurrency-group
 
 jobs:
-  build:
+  sleep:
     runs-on: ubuntu-latest
-    uses: ./.github/workflows/sleepy.yml
+    steps:
+    - uses: ./.github/workflows/sleepy.yml
