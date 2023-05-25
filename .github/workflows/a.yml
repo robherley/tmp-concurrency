@@ -9,4 +9,4 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/sleepy.yml
+    - uses: robherley/tmp-concurrency/.github/workflows/sleepy.yml
