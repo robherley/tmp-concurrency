@@ -7,4 +7,4 @@ concurrency: my-concurrency-group
 
 jobs:
   sleep:
-    uses: robherley/tmp-concurrency/.github/workflows/sleepy.yml@f215db74e2c334df441825dd78a8607ea9f7e7bc
+    uses: robherley/tmp-concurrency/.github/workflows/sleepy.yml@a8d707e78a3645a44fa0ed0a531927f25c59e573
