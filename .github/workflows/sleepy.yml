@@ -1,0 +1,14 @@
+name: Reusable sleepy
+
+on:
+  workflow_call:
+
+concurrency: sleep-group
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sleep for 10m
+        run: sleep 600

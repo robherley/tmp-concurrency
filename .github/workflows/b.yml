@@ -8,8 +8,4 @@ concurrency: my-concurrency-group
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Sleep for 10m
-        run: |
-          sleep 600
+    uses: ./.github/workflows/sleepy.yml
