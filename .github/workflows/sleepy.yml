@@ -2,6 +2,7 @@ name: Reusable sleepy
 
 on:
   workflow_call:
+  workflow_dispatch:
 
 concurrency: sleep-group
 
