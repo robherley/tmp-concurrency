@@ -1,0 +1,15 @@
+name: Workflow Run A
+
+on:
+  workflow_dispatch:
+  
+concurrency: my-concurrency-group
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sleep for 10m
+        run: |
+          sleep 600
